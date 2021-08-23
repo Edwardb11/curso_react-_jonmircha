@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Componente from "./componets/componente";
+import Propiedades from "./componets/propiedades";
+import { Component } from 'react';
+
 
 function App() {
   let nombre = "Edward";
@@ -30,6 +34,21 @@ function App() {
           Learn React
         </a>
       </header>
+      <section>
+        <Componente msg=" Hola soy un componente funcional de una pro"/>
+     <hr></hr>
+      <Propiedades cadena="Esto es una cadena de texto"
+      numero={19}
+      booleano={true}
+      arreglo={[1,2,3]} 
+     objecto={{nombre:"Edward", Correo:"edward@hotmail.com"}} 
+     funcion={ num => num*num}
+     elementoReact ={<i>Esto es un elemento de react italica</i>}
+     componenteReact ={<Componente msg="Soy un componente paso como prop"/>}
+     />
+     
+     
+      </section>
     </div>
   );
 }
