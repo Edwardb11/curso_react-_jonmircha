@@ -1,3 +1,4 @@
+import { checkPropTypes } from "prop-types";
 import React from "react";
 
 
@@ -27,4 +28,8 @@ return(
 
 Propiedades.defaultProps={
     PorDefecto:'Las pro',
+};
+
+Propiedades.prototype={
+    numero: checkPropTypes.number,
 };
