@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from "./componets/componente";
 import Propiedades from "./componets/propiedades";
+import Estado from "./componets/estado";
+
 import { Component } from 'react';
 
 
@@ -46,7 +48,8 @@ function App() {
      elementoReact ={<i>Esto es un elemento de react italica</i>}
      componenteReact ={<Componente msg="Soy un componente paso como prop"/>}
      />
-     
+        <hr></hr>
+<Estado/>
      
       </section>
     </div>
