@@ -4,6 +4,7 @@ import Componente from "./componets/componente";
 import Propiedades from "./componets/propiedades";
 import Estado from "./componets/estado";
 import RenderizadoCondicional from "./componets/RenderizadoCondicional";
+import RenderizadoElementos from "./componets/renderizadoElementos";
 
 import { Component } from 'react';
 
@@ -50,9 +51,11 @@ function App() {
      componenteReact ={<Componente msg="Soy un componente paso como prop"/>}
      />
         <hr></hr>
-<Estado/>
+    <Estado/>
         <hr></hr>
-<RenderizadoCondicional/>
+    <RenderizadoCondicional/>
+        <hr></hr>
+    <RenderizadoElementos/>
      
       </section>
     </div>
