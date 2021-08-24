@@ -6,7 +6,7 @@ import Estado from "./componets/estado";
 import RenderizadoCondicional from "./componets/RenderizadoCondicional";
 import RenderizadoElementos from "./componets/renderizadoElementos";
 
-import { Component } from 'react';
+//import { Components } from 'react';
 
 
 function App() {
