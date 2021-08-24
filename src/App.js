@@ -3,6 +3,7 @@ import './App.css';
 import Componente from "./componets/componente";
 import Propiedades from "./componets/propiedades";
 import Estado from "./componets/estado";
+import RenderizadoCondicional from "./componets/RenderizadoCondicional";
 
 import { Component } from 'react';
 
@@ -50,6 +51,8 @@ function App() {
      />
         <hr></hr>
 <Estado/>
+        <hr></hr>
+<RenderizadoCondicional/>
      
       </section>
     </div>
