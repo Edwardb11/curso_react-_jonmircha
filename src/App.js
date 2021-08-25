@@ -5,6 +5,7 @@ import Propiedades from "./componets/propiedades";
 import Estado from "./componets/estado";
 import RenderizadoCondicional from "./componets/RenderizadoCondicional";
 import RenderizadoElementos from "./componets/renderizadoElementos";
+import Eventos from "./componets/eventos";
 
 //import { Components } from 'react';
 
@@ -56,6 +57,9 @@ function App() {
     <RenderizadoCondicional/>
         <hr></hr>
     <RenderizadoElementos/>
+     
+        <hr></hr>
+    <Eventos/>
      
       </section>
     </div>
