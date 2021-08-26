@@ -6,6 +6,9 @@ import Estado from "./componets/estado";
 import RenderizadoCondicional from "./componets/RenderizadoCondicional";
 import RenderizadoElementos from "./componets/renderizadoElementos";
 import { EventosES6, EventosES7,MasSobreEventos } from "./componets/eventos";
+import ComunicacionComponentes from "./componets/ComunicacionComponentes";
+import CicloVida from "./componets/CicloVida";
+
 
 // import { Components } from 'react';
 
@@ -65,6 +68,12 @@ function App() {
      
         <hr></hr>
     <MasSobreEventos/>
+     
+        <hr></hr>
+    <ComunicacionComponentes/>
+     
+        <hr></hr>
+    <CicloVida/>
      
       </section>
     </div>
