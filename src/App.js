@@ -9,6 +9,7 @@ import { EventosES6, EventosES7,MasSobreEventos } from "./componets/eventos";
 import ComunicacionComponentes from "./componets/ComunicacionComponentes";
 import CicloVida from "./componets/CicloVida";
 import AjaxApis from "./componets/AjaxApis";
+import ContadorHooks from "./componets/contadorHooks";
 
 
 // import { Components } from 'react';
@@ -77,6 +78,10 @@ function App() {
     <CicloVida/>
         <hr></hr>
     <AjaxApis/>
+     
+        <hr></hr>
+        {/* se reemplaza la propiedad por defecto */}
+    <ContadorHooks titulo='Seguidores'/>
      
       </section>
     </div>
