@@ -10,6 +10,7 @@ import ComunicacionComponentes from "./componets/ComunicacionComponentes";
 import CicloVida from "./componets/CicloVida";
 import AjaxApis from "./componets/AjaxApis";
 import ContadorHooks from "./componets/contadorHooks";
+import ScrollHooks from "./componets/ScrollHooks";
 
 
 // import { Components } from 'react';
@@ -82,6 +83,9 @@ function App() {
         <hr></hr>
         {/* se reemplaza la propiedad por defecto */}
     <ContadorHooks titulo='Seguidores'/>
+     
+        <hr></hr>
+    <ScrollHooks/>
      
       </section>
     </div>
