@@ -12,6 +12,7 @@ import AjaxApis from "./componets/AjaxApis";
 import ContadorHooks from "./componets/contadorHooks";
 import ScrollHooks from "./componets/ScrollHooks";
 import RelojHooks from "./componets/RelojHooks";
+import AjaxHooks from "./componets/AjaxHooks";
 
 
 // import { Components } from 'react';
@@ -90,6 +91,9 @@ function App() {
      
         <hr></hr>
     <RelojHooks/>
+     
+        <hr></hr>
+    <AjaxHooks/>
      
       </section>
     </div>
