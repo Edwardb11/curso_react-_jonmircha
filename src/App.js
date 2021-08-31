@@ -11,6 +11,7 @@ import CicloVida from "./componets/CicloVida";
 import AjaxApis from "./componets/AjaxApis";
 import ContadorHooks from "./componets/contadorHooks";
 import ScrollHooks from "./componets/ScrollHooks";
+import RelojHooks from "./componets/RelojHooks";
 
 
 // import { Components } from 'react';
@@ -86,6 +87,9 @@ function App() {
      
         <hr></hr>
     <ScrollHooks/>
+     
+        <hr></hr>
+    <RelojHooks/>
      
       </section>
     </div>
