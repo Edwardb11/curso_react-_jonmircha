@@ -13,6 +13,7 @@ import ContadorHooks from "./componets/contadorHooks";
 import ScrollHooks from "./componets/ScrollHooks";
 import RelojHooks from "./componets/RelojHooks";
 import AjaxHooks from "./componets/AjaxHooks";
+import HooksPersonalizados from './componets/HooksPersonalizados';
 
 
 // import { Components } from 'react';
@@ -94,6 +95,8 @@ function App() {
      
         <hr></hr>
     <AjaxHooks/>
+        <hr></hr>
+    <HooksPersonalizados/>
      
       </section>
     </div>
