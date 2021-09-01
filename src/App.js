@@ -14,6 +14,7 @@ import ScrollHooks from "./componets/ScrollHooks";
 import RelojHooks from "./componets/RelojHooks";
 import AjaxHooks from "./componets/AjaxHooks";
 import HooksPersonalizados from './componets/HooksPersonalizados';
+import Referencias from './componets/Referencias';
 
 
 // import { Components } from 'react';
@@ -97,6 +98,8 @@ function App() {
     <AjaxHooks/>
         <hr></hr>
     <HooksPersonalizados/>
+        <hr></hr>
+    <Referencias/>
      
       </section>
     </div>
