@@ -15,6 +15,7 @@ import RelojHooks from "./componets/RelojHooks";
 import AjaxHooks from "./componets/AjaxHooks";
 import HooksPersonalizados from './componets/HooksPersonalizados';
 import Referencias from './componets/Referencias';
+import Formularios from './componets/Formularios';
 
 
 // import { Components } from 'react';
@@ -100,6 +101,8 @@ function App() {
     <HooksPersonalizados/>
         <hr></hr>
     <Referencias/>
+        <hr></hr>
+    <Formularios/>
      
       </section>
     </div>
