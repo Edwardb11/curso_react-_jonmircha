@@ -17,6 +17,7 @@ import HooksPersonalizados from './componets/HooksPersonalizados';
 import Referencias from './componets/Referencias';
 import Formularios from './componets/Formularios';
 import Estilos from './componets/Estilos';
+import ComponentesEstilizados from './componets/ComponentesEstilizados';
 
 
 // import { Components } from 'react';
@@ -107,6 +108,8 @@ function App() {
      
         <hr></hr>
     <Estilos/>
+        <hr></hr>
+    <ComponentesEstilizados/>
      
       </section>
     </div>
