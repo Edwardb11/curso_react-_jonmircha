@@ -139,7 +139,7 @@ export default function Formularios(){
             onChange={handleChange}>
             </input> 
             {/* input controlado mediante la varuable de estdo */}
-
+            <br/>
             {/* type radio */}
             <p>Elige tu sabor JS favorito</p>
             <label for="vanilla">Vanilla</label>
@@ -187,6 +187,8 @@ export default function Formularios(){
             value="Sveite" 
             o onChange={handleChange}>
             </input>
+
+            <br/>
             {/* type select */}
             <select name="lenguaje"  onChange={handleChange} defaultValue="">
                 <option value="">-----</option>
@@ -199,7 +201,7 @@ export default function Formularios(){
             </select>
 
             {/* Radio boton */}
-
+            <br/>
             <label htmlFor="terminos">Acepto terminos y condiciones</label>
                 <input
                 type="checkbox"
@@ -209,7 +211,7 @@ export default function Formularios(){
                 >
                 </input>
 
-        
+                <br/>
         {/* Submit */}
         <input type="submit"></input>
         </form>

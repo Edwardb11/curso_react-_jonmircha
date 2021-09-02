@@ -16,6 +16,7 @@ import AjaxHooks from "./componets/AjaxHooks";
 import HooksPersonalizados from './componets/HooksPersonalizados';
 import Referencias from './componets/Referencias';
 import Formularios from './componets/Formularios';
+import Estilos from './componets/Estilos';
 
 
 // import { Components } from 'react';
@@ -103,6 +104,9 @@ function App() {
     <Referencias/>
         <hr></hr>
     <Formularios/>
+     
+        <hr></hr>
+    <Estilos/>
      
       </section>
     </div>
