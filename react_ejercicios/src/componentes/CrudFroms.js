@@ -5,7 +5,7 @@ const inicialForm={
     id:null,
 };
 
-const CrudFroms = (createData,updateData,dataToEdit,setDataToEdit) => {
+const CrudFroms = ({ CreateData, updateData, dataToEdit, setDataToEdit }) => {
     const [form, setForm] = useState(inicialForm)
 
     //para controlar todos los posibles cambios
@@ -24,7 +24,7 @@ const CrudFroms = (createData,updateData,dataToEdit,setDataToEdit) => {
           return;
         }
         if (form.id === null) {
-            createData(form);
+            CreateData(form);
           } else {
             updateData(form);
           }

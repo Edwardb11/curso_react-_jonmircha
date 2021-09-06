@@ -30,13 +30,34 @@ const initialDb=[
       },
     ];
 
+
 const CrudApp = () => {
-    const [db, setDb] = useState(initialDb)
+    const [db, setDb] = useState(initialDb);
+
+    //variable de estado
+    //si esta nulo significa insercion de dato y si esta true es una edicion
+    const [dataToEdit, setDataToEdit] = useState(null);
+    const CreateData = (data) => {
+    data.id = Date.now();
+    //console.log(data);
+    setDb([...db, data]);
+  };
+    const updateData=(data)=>{}
+    const deleteData=(id)=>{}
     return (
         <div>
             <h2>CRUD APP</h2>
-            <CrudFroms/>
-            <CrudTable data={db}></CrudTable>
+            <CrudFroms
+            CreateData={CreateData}
+            updateData={updateData} 
+            dataToEdit={dataToEdit}
+            setDataToEdit={setDataToEdit}
+            />
+            <CrudTable
+             data={db}
+             setDataToEdit={setDataToEdit}
+             deleteData={deleteData}/>
+          
         </div>
     )
 }
