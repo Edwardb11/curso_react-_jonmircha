@@ -1,20 +1,40 @@
 import React, { useState, useEffect } from "react";
-
-
-
 const inicialForm={
     name:"",
-    Contelacion:"",
+    constellation:"",
     id:null,
 };
 
-const CrudFroms = () => {
-    const [form, SetForm] = useState(inicialForm)
+const CrudFroms = (createData,updateData,dataToEdit,setDataToEdit) => {
+    const [form, setForm] = useState(inicialForm)
 
     //para controlar todos los posibles cambios
-    const handleChange =(e)=>{}
-    const handleSubmit =(e)=>{}
-    const handleReset =(e)=>{}
+    const handleChange =(e)=>{
+        setForm({
+           ...form,
+          [e.target.name]:e.target.value,
+        });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        if (!form.name || !form.constellation) {
+          alert("Datos incompletos");
+          return;
+        }
+        if (form.id === null) {
+            createData(form);
+          } else {
+            updateData(form);
+          }
+      
+          handleReset();
+    }
+    const handleReset =(e)=>{
+        setForm(inicialForm);
+        setDataToEdit(null);
+    }
     return (
         <div>
             <h3>Agregar</h3>
@@ -28,10 +48,10 @@ const CrudFroms = () => {
 
                 <input 
                 type="text" 
-                name="Contelacion"
-                placeholder="Contelacion" 
+                name="constellation"
+                placeholder="constellation" 
                 onChange={handleChange} 
-                value={form.Contelacion}/>
+                value={form.constellation}/>
 
                 <input 
                 type="submit" 
