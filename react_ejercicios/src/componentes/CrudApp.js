@@ -42,7 +42,11 @@ const CrudApp = () => {
     //console.log(data);
     setDb([...db, data]);
   };
-    const updateData=(data)=>{}
+    const updateData=(data)=>{
+        //usar un map y cuando detecte que sea justamente ese id se para y modifique esa posicion
+        let newData=db.map((el)=> (el.id===data.id? data:el));
+        setDb(newData);
+    }
     const deleteData=(id)=>{}
     return (
         <div>

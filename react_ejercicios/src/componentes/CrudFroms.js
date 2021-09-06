@@ -8,6 +8,16 @@ const inicialForm={
 const CrudFroms = ({ CreateData, updateData, dataToEdit, setDataToEdit }) => {
     const [form, setForm] = useState(inicialForm)
 
+//cuando detecte que dataTpEdit haya cambiado
+    useEffect(() => {
+        if(dataToEdit){
+            setForm(dataToEdit);
+        }
+        else{
+            setForm(inicialForm);
+        }
+    }, [dataToEdit])
+
     //para controlar todos los posibles cambios
     const handleChange =(e)=>{
         setForm({
