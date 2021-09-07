@@ -60,17 +60,18 @@ const CrudApp = () => {
     return (
         <div>
             <h2>CRUD APP</h2>
-            <CrudFroms
-            CreateData={CreateData}
-            updateData={updateData} 
-            dataToEdit={dataToEdit}
-            setDataToEdit={setDataToEdit}
-            />
-            <CrudTable
-             data={db}
-             setDataToEdit={setDataToEdit}
-             deleteData={deleteData}/>
-          
+            <article className="grid-1-2">
+              <CrudFroms
+              CreateData={CreateData}
+              updateData={updateData} 
+              dataToEdit={dataToEdit}
+              setDataToEdit={setDataToEdit}
+              />
+              <CrudTable
+              data={db}
+              setDataToEdit={setDataToEdit}
+              deleteData={deleteData}/>
+           </article>
         </div>
     )
 }
