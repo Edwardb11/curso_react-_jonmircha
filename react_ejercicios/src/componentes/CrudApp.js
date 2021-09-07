@@ -47,7 +47,16 @@ const CrudApp = () => {
         let newData=db.map((el)=> (el.id===data.id? data:el));
         setDb(newData);
     }
-    const deleteData=(id)=>{}
+    const deleteData=(id)=>{
+      let isDelete = window.confirm(`Estas seguro de eliminar el registro con el id '${id}'?`);
+    
+
+    if(isDelete){
+      //es decir que este nuevo arreglo cuando el id sea igual al id lo va a discriminar 
+      let newData = db.filter((el)=> el.id !== id);
+      setDb(newData);
+    }
+  }
     return (
         <div>
             <h2>CRUD APP</h2>
