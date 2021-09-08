@@ -21,6 +21,7 @@ import ComponentesEstilizados from './componets/ComponentesEstilizados';
 import StylesComponents from './componets/StylesComponents';
 import Refs from './componets/Refs';
 import Formulario from './componets/FormularioValidar';
+import Eventos2 from './componets/Eventos2';
 
 
 // import { Components } from 'react';
@@ -67,62 +68,75 @@ function App() {
      elementoReact ={<i>Esto es un elemento de react italica</i>}
      componenteReact ={<Componente msg="Soy un componente paso como prop"/>}
      />
-
-        <hr></hr>
-    <Estado/>
-        <hr></hr>
-    <RenderizadoCondicional/>
-        <hr></hr>
-    <RenderizadoElementos/>
-     
-        <hr></hr>
-    <EventosES6/>
-        <hr></hr>
-    <EventosES7/>
-     
-        <hr></hr>
-    <MasSobreEventos/>
-     
-        <hr></hr>
-    <ComunicacionComponentes/>
-     
-        <hr></hr>
-    <CicloVida/>
-        <hr></hr>
-    <AjaxApis/>
-     
-        <hr></hr>
-        {/* se reemplaza la propiedad por defecto */}
-    <ContadorHooks titulo='Seguidores'/>
-     
-        <hr></hr>
-    <ScrollHooks/>
-     
-        <hr></hr>
-    <RelojHooks/>
-     
-        <hr></hr>
-    <AjaxHooks/>
-        <hr></hr>
-    <HooksPersonalizados/>
-        <hr></hr>
-    <Referencias/>
-        <hr></hr>
-    <Formularios/>
-     
-        <hr></hr>
-    <Estilos/>
-        <hr></hr>
-    <ComponentesEstilizados/>
-        <hr></hr>
-    <StylesComponents/>
-        <hr></hr>
-    <Refs/>
     <hr></hr>
-            <Formulario/>
-      </section>
+    <Estado/>
+
+    <hr></hr>
+    <RenderizadoCondicional/>
+
+    <hr></hr>
+    <RenderizadoElementos/>
+
+    <hr></hr>
+    <EventosES6/>
+
+    <hr></hr>
+    <EventosES7/>
+
+    <hr></hr>
+    <MasSobreEventos/>
+
+    <hr></hr>
+    <ComunicacionComponentes/>
+
+    <hr></hr>
+    <CicloVida/>
+
+    <hr></hr>
+    <AjaxApis/>
+
+    <hr></hr>
+    {/* se reemplaza la propiedad por defecto */}
+    <ContadorHooks titulo='Seguidores'/>
+
+    <hr></hr>
+    <ScrollHooks/>
+
+    <hr></hr>
+    <RelojHooks/>
+
+    <hr></hr>
+    <AjaxHooks/>
+
+    <hr></hr>
+    <HooksPersonalizados/>
+
+    <hr></hr>
+    <Referencias/>
+
+    <hr></hr>
+    <Formularios/>
+
+    <hr></hr>
+    <Estilos/>
+
+    <hr></hr>
+    <ComponentesEstilizados/>
+
+    <hr></hr>
+    <StylesComponents/>
+
+    <hr></hr>
+    <Refs/>
+    
+    <hr></hr>
+    <Formulario/>
+    
+    <hr></hr>
+    <Eventos2/>
+    </section>
     </div>
-  );
+    );
 }
 
 export default App;
