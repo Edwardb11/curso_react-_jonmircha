@@ -25,6 +25,7 @@ import Eventos2 from './componets/Eventos2';
 import SpreadOperator from './componets/SpreadOperator';
 import IterandoArray from './componets/IterandoArray';
 import IterarPropiedadesObjetos from './componets/IterarPropiedadesObjetos';
+import ComponentePadre from './componets/IterandoComponentes/ComponentePadre';
 
 
 // import { Components } from 'react';
@@ -146,6 +147,9 @@ function App() {
 
     <hr></hr>
     <IterarPropiedadesObjetos/>
+
+    <hr></hr>
+    <ComponentePadre/>
 
      </section>
     </div>
