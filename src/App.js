@@ -18,6 +18,8 @@ import Referencias from './componets/Referencias';
 import Formularios from './componets/Formularios';
 import Estilos from './componets/Estilos';
 import ComponentesEstilizados from './componets/ComponentesEstilizados';
+import StylesComponents from './componets/StylesComponents';
+import Refs from './componets/Refs';
 
 
 // import { Components } from 'react';
@@ -110,6 +112,10 @@ function App() {
     <Estilos/>
         <hr></hr>
     <ComponentesEstilizados/>
+        <hr></hr>
+    <StylesComponents/>
+        <hr></hr>
+    <Refs/>
      
       </section>
     </div>
