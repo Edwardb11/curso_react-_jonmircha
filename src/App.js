@@ -20,6 +20,7 @@ import Estilos from './componets/Estilos';
 import ComponentesEstilizados from './componets/ComponentesEstilizados';
 import StylesComponents from './componets/StylesComponents';
 import Refs from './componets/Refs';
+import Formulario from './componets/FormularioValidar';
 
 
 // import { Components } from 'react';
@@ -66,6 +67,7 @@ function App() {
      elementoReact ={<i>Esto es un elemento de react italica</i>}
      componenteReact ={<Componente msg="Soy un componente paso como prop"/>}
      />
+
         <hr></hr>
     <Estado/>
         <hr></hr>
@@ -116,7 +118,8 @@ function App() {
     <StylesComponents/>
         <hr></hr>
     <Refs/>
-     
+    <hr></hr>
+            <Formulario/>
       </section>
     </div>
   );
