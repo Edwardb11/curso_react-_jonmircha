@@ -23,7 +23,7 @@ class Eventos2 extends Component {
     render() {
         return (
             <>
-            
+            <h2>Eventos</h2>
             <form>
                  <input onMouseLeave={()=>alert('he salido')} type="text" />
 
