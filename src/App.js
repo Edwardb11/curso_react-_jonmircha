@@ -22,6 +22,9 @@ import StylesComponents from './componets/StylesComponents';
 import Refs from './componets/Refs';
 import Formulario from './componets/FormularioValidar';
 import Eventos2 from './componets/Eventos2';
+import SpreadOperator from './componets/SpreadOperator';
+import IterandoArray from './componets/IterandoArray';
+import IterarPropiedadesObjetos from './componets/IterarPropiedadesObjetos';
 
 
 // import { Components } from 'react';
@@ -131,10 +134,20 @@ function App() {
     
     <hr></hr>
     <Formulario/>
-    
+
     <hr></hr>
     <Eventos2/>
-    </section>
+
+    <hr></hr>
+    <SpreadOperator/>
+
+    <hr></hr>
+    <IterandoArray/>
+
+    <hr></hr>
+    <IterarPropiedadesObjetos/>
+
+     </section>
     </div>
     );
 }
