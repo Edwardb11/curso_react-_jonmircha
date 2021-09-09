@@ -27,6 +27,7 @@ import IterandoArray from './componets/IterandoArray';
 import IterarPropiedadesObjetos from './componets/IterarPropiedadesObjetos';
 import ComponentePadre from './componets/IterandoComponentes/ComponentePadre';
 import CicloDeVidaComponentesClases from './componets/CicloDeVidaComponentesClases';
+import Fetch from './componets/PeticionesHTTP/Fetch';
 
 
 // import { Components } from 'react';
@@ -155,6 +156,8 @@ function App() {
     <hr></hr>
     <ComponentePadre/>
 
+    <hr></hr>
+    <Fetch></Fetch>
      </section>
     </div>
     );
