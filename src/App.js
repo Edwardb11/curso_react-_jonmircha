@@ -26,6 +26,7 @@ import SpreadOperator from './componets/SpreadOperator';
 import IterandoArray from './componets/IterandoArray';
 import IterarPropiedadesObjetos from './componets/IterarPropiedadesObjetos';
 import ComponentePadre from './componets/IterandoComponentes/ComponentePadre';
+import CicloDeVidaComponentesClases from './componets/CicloDeVidaComponentesClases';
 
 
 // import { Components } from 'react';
@@ -96,6 +97,9 @@ function App() {
     <hr></hr>
     <CicloVida/>
 
+    {/* <hr></hr>
+   <CicloDeVidaComponentesClases/>
+    */}
     <hr></hr>
     <AjaxApis/>
 
