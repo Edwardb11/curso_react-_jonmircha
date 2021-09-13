@@ -31,7 +31,10 @@ import Fetch from './componets/PeticionesHTTP/Fetch';
 import Hooks from './Hooks';
 import UserProvider from './context/useContext';
 import Context from './componets/Contex';
-
+import {Provider} from 'react-redux'
+import store from './Redux/store';
+import Contador from './componets/Contador';
+import GetUsers from './componets/GetUsers';
 
 // import { Components } from 'react';
 
@@ -169,7 +172,12 @@ function App() {
     <UserProvider>
     <Context/>
     </UserProvider>
-    
+
+    <Provider store={store}>
+      <Contador/>
+      <GetUsers/>
+    </Provider>
+
      </section>
     </div>
     );
