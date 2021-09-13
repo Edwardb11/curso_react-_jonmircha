@@ -26,8 +26,11 @@ import SpreadOperator from './componets/SpreadOperator';
 import IterandoArray from './componets/IterandoArray';
 import IterarPropiedadesObjetos from './componets/IterarPropiedadesObjetos';
 import ComponentePadre from './componets/IterandoComponentes/ComponentePadre';
-import CicloDeVidaComponentesClases from './componets/CicloDeVidaComponentesClases';
+//import CicloDeVidaComponentesClases from './componets/CicloDeVidaComponentesClases';
 import Fetch from './componets/PeticionesHTTP/Fetch';
+import Hooks from './Hooks';
+import UserProvider from './context/useContext';
+import Context from './componets/Contex';
 
 
 // import { Components } from 'react';
@@ -76,6 +79,9 @@ function App() {
      />
     <hr></hr>
     <Estado/>
+
+    <hr></hr>
+    <Hooks/>
 
     <hr></hr>
     <RenderizadoCondicional/>
@@ -158,6 +164,12 @@ function App() {
 
     <hr></hr>
     <Fetch></Fetch>
+
+    <hr></hr>
+    <UserProvider>
+    <Context/>
+    </UserProvider>
+    
      </section>
     </div>
     );
